@@ -1,4 +1,6 @@
-import jsonServer from 'json-server';
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const jsonServer = require('json-server');
 const server = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults({
