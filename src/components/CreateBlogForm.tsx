@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useCreateBlog } from '@/hooks/useBlogs'
-import { CreateBlogInput } from '@/types/blog'
+import type { CreateBlogInput } from '@/types/blog'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogClose } from './ui/dialog'
 import { Input } from './ui/input'
 import { Textarea } from './ui/textarea'

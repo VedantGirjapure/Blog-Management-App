@@ -1,5 +1,5 @@
 import { useBlogs } from '@/hooks/useBlogs'
-import { Blog } from '@/types/blog'
+import type { Blog } from '@/types/blog'
 import { BlogCard } from './BlogCard'
 import { Skeleton } from './ui/skeleton'
 import { AlertCircle } from 'lucide-react'
